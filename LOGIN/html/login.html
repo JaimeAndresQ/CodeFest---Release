@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="/LOGIN/src/iconoAPP.png">
+        <link rel="stylesheet" href="/LOGIN/css/login.css">
+    </head>
+    <body>
+        <div id="login" class="componente">
+            <h2 class="titulo">Ingrese los datos de usuario para acceder al sistema:</h2>
+            <input type="text" id="usuarioI" placeholder="Usuario" class="input">
+            <div class="flex">
+                <input type="password" id="contrasenaI" placeholder="Contraseña" class="input">
+                <img id="verContraI" src="/LOGIN/src/eye-solid.svg" class="hover" width="25">
+            </div>
+            <button id="ingresar" class="boton">Ingresar</button>
+            <div>
+                <button id="noCuenta"><b>¿No tienes una cuenta?</b></button>
+                <button id="noContra"><b>¿Olvidaste la contraseña?</b></button>
+            </div>
+        </div>
+
+        <div id="registro" class="componente oculto">
+            <h2 class="titulo">Ingresa los datos para crear tu cuenta.</h2>
+            <div>
+                <img src="/LOGIN/src/iconoAPP.png" alt="Usuario" id="fondoRegistro">
+            </div>
+            <label for="usuarioR">Usuario:</label>
+            <input type="text" id="usuarioR" class="input">
+            <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres" class="input">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" class="input">
+            <label for="telefono">Telefono:</label>
+            <input type="number" id="telefono" class="input">
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" class="input">
+            <div class="flex">
+                <div>
+                    <label for="contrasenaR">Contraseña:</label>
+                    <input type="password" id="contrasenaR" class="input">
+                </div>
+                <img id="verContraR" src="/LOGIN/src/eye-solid.svg" class="hover" width="25">
+            </div>
+            <div class="flex">
+                <button id="crear" class="boton">Crear</button>
+                <button id="cancelar" class="boton">Regresar</button>
+            </div>
+        </div>
+    </body>
+    <script src="/LOGIN/js/login.js"></script>
+</html>

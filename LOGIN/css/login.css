@@ -1,0 +1,142 @@
+
+@media (max-width: 767px) {
+}
+  
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+  
+@media (min-width: 1024px) {
+}
+  
+body{
+    background-image: url('/LOGIN/src/fondo.jpg');
+    background-size: 100%;
+}
+
+.componente{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:aliceblue;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: o 10px 30px rgb(0, 0, 0);
+}
+
+.titulo{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#login input{
+    display: block;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border: outset 6px;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+#login input:focus{
+    outline-color:aliceblue;
+}
+
+
+.boton{
+    display: block;
+    width: 25%;
+    background-color: #FF0010;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 12px;
+    border: hidden;
+    border-radius: 10px;
+    box-shadow: o 10px 30px rgb(0, 0, 0);
+    font-size: medium;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.boton:hover{
+    background-color: #ff6e78;
+    cursor: pointer;
+}
+
+#noCuenta, #noContra{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-style: oblique;
+    font-size: 15px;
+    color: #124e7d;
+    border: 0px;
+    background-color: aliceblue;
+}
+
+#noCuenta:hover, #noContra:hover{
+    color: #96d1ff;
+    cursor: pointer;
+}
+
+.oculto{
+    display: none;
+}
+
+#registro input{
+    display: block;
+    width: 70%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border: solid 1px;
+    border-color: #96d1ff;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+#verContraR{
+    transform: translate(-80%, -20%);
+}
+
+#registro input:focus{
+    outline-color: #124e7d;
+}
+
+#registro label{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 12px;
+    font-size: medium;
+}
+
+.hover:hover{
+    cursor: pointer;
+}
+
+#fondoRegistro{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 35%;
+}

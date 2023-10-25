@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../src/iconoAPP.png">
+  <link rel="stylesheet" href="../css/editar-contraseña.css">
+  <img id="logo-upb" src="../src/iconoAPP.png" alt="Usuario" id="fondoRegistro"> </div>
+  <title>Cambiar contraseña</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="registro">
+      <h1>Cambiar contrasena</h1>
+      <p class="titulo">Ingresa los datos para cambiar contraseña.</p>
+      <a href="/LOGIN/html/login.html">Volver al Inicio</a>
+    </div>
+    <div>
+      <label for="contrasena">Correo:</label>
+      <input type="email" id="correo" name="correo" placeholder="Correo">
+
+      <label for="contrasena">Contraseña Actual:</label>
+      <input type="password" id="contraseña-actual" name="contraseña-actual" placeholder="Contraseña Actual">
+      <img id="verContraA" src="../src/eye-solid.svg" class="hover" width="15">
+
+      <label for="contrasena">Nueva Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" placeholder="Nueva contraseña">
+      <img id="verContraN" src="../src/eye-solid.svg" class="hover" width="15">
+
+      <label for="confirmar-contrasena">Confirmar Contraseña:</label>
+      <input type="password" id="confirmar-contrasena" name="confirmar-contrasena"
+        placeholder="Confirmar nueva contraseña">
+      <img id="verContraC" src="../src/eye-solid.svg" class="hover" width="15">
+
+      <div class="centrar">
+        <button id="boton"><b>Guardar Cambios</b></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/CAMBIAR_CONTRASEÑA/js/editar-contraseña.js"></script>
+</body>
+
+</html>

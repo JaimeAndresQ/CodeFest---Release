@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.barra {
+    overflow: hidden;
+    margin-top: 1%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.barra a {
+    font-weight:bold;
+    font-size: 20px;
+    float: left;
+    display: block;
+    color: #7e7e7e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#home{
+    color: black;
+    text-decoration-line: underline;
+    text-underline-offset: 6px;
+}
+
+.barra a:hover {
+    text-decoration-line: underline;
+    text-underline-offset: 6px;
+}
+
+.botonesBarra{
+    margin-left: 3%;
+}
+
+.perfil{
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 4px;
+}
+
+.perfil a{  
+    float: right;
+}
+
+.perfil #icono{
+    margin-right: 1%;
+    margin-bottom: 1%;
+    width: 2.5%;
+}
+.perfil #icono:hover{
+    cursor: pointer;
+}
+
